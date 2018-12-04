@@ -1,3 +1,6 @@
+body {
+  background: rgb(233, 233, 233);
+}
 nav {
   width: 100%;
   height: 38px;
@@ -23,4 +26,36 @@ nav a:hover {
 
 .links {
   float: right;
+}
+
+#header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#input {
+  text-align: center;
+}
+
+#input input {
+  font-size: 20px;
+  height: 30px;
+  width: 230px;
+}
+
+#input button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+  background: rgb(238, 196, 9);
+  border-radius: 3px;
+  border: none;
+  padding: 6px;
+  transition: background-color 300ms ease-in-out;
+}
+
+#input button:hover {
+  background: orange;
+  transition: background-color 300ms ease-in-out;
 }
