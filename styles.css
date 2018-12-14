@@ -9,6 +9,9 @@ nav {
   top: 0;
   left: 0;
 }
+#body-list img {
+  color: orange;
+}
 
 nav a {
   font-size: 20px;
@@ -24,11 +27,11 @@ nav a:hover {
   color: black;
 }
 
-.links {
+.nav-link {
   float: right;
 }
 
-#header {
+#lead-text {
   text-align: center;
   margin-top: 100px;
 }
@@ -97,7 +100,7 @@ nav a:hover {
   margin: 0;
 }
 
-#video {
+#vid-container {
   padding-top: 70px;
   text-align: center;
 }
@@ -140,4 +143,21 @@ nav a:hover {
 }
 #price {
   text-align: center;
+}
+
+#card button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+  background: rgb(238, 196, 9);
+  border-radius: 3px;
+  border: none;
+  padding: 6px;
+  transition: background-color 300ms ease-in-out;
+}
+
+#card button:hover {
+  background: orange;
+  transition: background-color 300ms ease-in-out;
 }
